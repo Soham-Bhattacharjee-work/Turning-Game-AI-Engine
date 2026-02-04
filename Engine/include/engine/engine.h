@@ -1,0 +1,4 @@
+class Engine {
+    public:
+        Engine();
+};
