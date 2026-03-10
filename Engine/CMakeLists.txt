@@ -7,5 +7,7 @@ target_sources(engine
 
 target_include_directories(engine
     PUBLIC
-        ${CMAKE_CURRENT_SOURCE_DIR}/include
+        ${CMAKE_CURRENT_SOURCE_DIR}/include/engine
+    PRIVATE
+        ${CMAKE_CURRENT_SOURCE_DIR}/include/gamestate
 )
